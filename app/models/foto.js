@@ -14,7 +14,11 @@ var schema = mongoose.Schema({
 	grupo: {
 		type: Number,
 		required: true
-	}
+	},
+
+	descricao: {
+        type: String
+    }
 });
 
 mongoose.model("Foto", schema);
